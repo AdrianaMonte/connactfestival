@@ -32,8 +32,6 @@ p {
     font-weight: 600;
     font-style: italic; 
     padding: 3em black;
-    background-image: linear-gradient(to top left , #fff 0%, #6573f3 50%, #c11393 100%);
-    
 
 }
 
@@ -104,3 +102,11 @@ h2 , h3 {
     padding-top: 8em;
 }    
 
+footer {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    text-align: center;
+    color: #222222;
+    font-size: 14px;
+    margin-top: 6em;
+  }

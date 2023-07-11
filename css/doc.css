@@ -25,13 +25,10 @@ body{
     padding: color black;
     margin: 0;
     text-align: center;
+    
 }
-p {
-    color: aliceblue;
-    letter-spacing: 0.05em;
-    font-family:'Prompt', sans-serif;
-    font-weight: 300;
-    font-style: italic; }
+
+
 
     #attivo {
         text-decoration: underline yellow;
@@ -42,37 +39,59 @@ p {
         letter-spacing: 0.05em;
         font-family:'Prompt', sans-serif;
         font-weight: 600;
-        margin-top: 5em;
+        margin-top: 2em;
     }
     h2  {
         color: white;
         letter-spacing: 0.05em;
         font-family:'Prompt', sans-serif;
         font-weight: 400;
-        margin-top: 5em;
-        padding-top: 6em;
+        margin-top: 1sem;
+        padding-top: 1em;
     }
     h3  {
         color: white;
         letter-spacing: 0.05em;
         font-family:'Prompt', sans-serif;
         font-weight: 400;
-        margin-top: 5em;
+        margin-top: 1em;
     }
     p {
         color: white;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.09em;
         font-family:'Prompt', sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: italic;
+        margin-right: 7em;
+        margin-left: 7em;
+
         
     }
-    .layout {
-        width: auto;
-        height: 300px;
-        padding-top: 3em;
-        padding-bottom: 5em;
     
-    }
 
     
+    footer {
+        background-color: rgb(48, 48, 48);
+        padding: 20px;
+        text-align: center;
+        color: #222222;
+        font-size: 14px;
+        margin-top: 6em;
+     }
+
+     #risultato {
+        width: 600px;
+        height: auto;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .layout {
+        width: auto;
+        height: 300px;
+        margin: 0 10px;
+      }
+      
+  

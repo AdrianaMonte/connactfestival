@@ -9,7 +9,6 @@ nav ul li {
 header {
     background-color: black;
     color: floralwhite;
-    margin: 1em;
     text-align: right;
     
 }
@@ -20,56 +19,59 @@ header {
 }
 a:hover {text-decoration: underline;}
 
-body {
+body{
     background-color: black;
     padding: color black;
     margin: 0;
     text-align: center; 
 }
-
-p {
-    color: aliceblue;
+p { 
+    color: white;
     letter-spacing: 0.05em;
     font-family:'Prompt', sans-serif;
     font-weight: 300;
-    font-style: italic; }
+    font-style: italic; 
+    padding: 3em black;
 
-
-
-
-
-.button {
-    background-color: yellow;
-        letter-spacing: 0.05em;
-        font-family:'Prompt', sans-serif;
-        font-weight: 400;
-        border: none;
-        box-shadow: 0px 0px 2px 2px yellow;
-        min-height: 30px; 
-        min-width: 90px;
-        
-        
-    }
+}
 
 #attivo {
     text-decoration: underline yellow;
-    
 }
 
+h1 {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 800;
+    margin-top: 1em;
+    
+}
+h2 , h3 {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 500;
+    
+}
 .imgmerch {
     width: auto;
-    height: 300px;
-    padding-top: 10em;
+    height: 500px;
+    margin: 0 auto; 
+    text-align: center;
 }
-.card1 .card2 {
-    position: start;
+.card1 {
+    text-align: center;
     color: white;
     letter-spacing: 0.05em;
     font-family:'Prompt', sans-serif;
     font-weight: 400;
     padding-left: 10em;
-    
+    padding-top: 2em;
+    height: 8em;
+    margin-left: 10em;
 }
+
 
 .button:hover {
     background-color: #6a82ee;
@@ -87,22 +89,7 @@ p {
     min-width: 90px;
     margin-right: 1em;
 }
-.button:hover {
-    background-color: #6a82ee;
-    transition: 0.4s;
-}
-.button {
-    background-color: yellow;
-    color: black;
-    letter-spacing: 0.05em;
-    font-family:'Prompt', sans-serif;
-    font-weight: 600;
-    border: none;
-    box-shadow: 0px 0px 2px 2px yellow;
-    min-height: 30px; 
-    min-width: 90px;
-    margin-right: 1em;
-}
+
 .cardbody {
     color: white;
     letter-spacing: 0.05em;
@@ -110,7 +97,14 @@ p {
     font-weight: 400;
     padding-left: 10em;
     align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 2em;
 }
+#day2 , #day3 {
+    padding-top: 3em;
+}    
+
 footer {
     background-color: rgb(48, 48, 48);
     padding: 20px;

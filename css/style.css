@@ -121,8 +121,8 @@ p {
     padding-bottom: 14em;
 }
 #mappa {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: auto;
 } 
 body{
 	text-align: center;
@@ -174,5 +174,12 @@ h1{
     width: 100px;
 } 
 
-
+footer {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    text-align: center;
+    color: #222222;
+    font-size: 14px;
+    margin-top: 6em;
+  }
 
