@@ -38,7 +38,7 @@ p {
     }
 
     h1  {
-        color: white;
+        color: yellow;
         letter-spacing: 0.05em;
         font-family:'Prompt', sans-serif;
         font-weight: 600;
@@ -50,6 +50,7 @@ p {
         font-family:'Prompt', sans-serif;
         font-weight: 400;
         margin-top: 5em;
+        padding-top: 6em;
     }
     h3  {
         color: white;
@@ -66,3 +67,11 @@ p {
         font-style: italic;
         
     }
+    .layout {
+        width: auto;
+        height: 300px;
+        padding-top: 3em;
+        padding-bottom: 5em;
+    }
+
+    
