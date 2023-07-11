@@ -1,0 +1,178 @@
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Prompt', sans-serif;
+    padding: auto;
+    padding-right: 14px;
+    
+     
+}
+
+header {
+    background-color: black;
+    margin: 1em;
+    text-align: right;
+ }
+
+ main section img {
+    height: 20%;
+    width: 20%;
+}
+
+body{
+    background-color: black;
+    padding: color black;
+    margin: 0;
+    text-align: center;
+}
+
+#logoimg {
+    height: auto;
+    width: 800px;
+    text-align: center;
+    max-width: 70%;
+
+}
+
+.bianco {
+    color: white;
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+
+}
+a:hover {text-decoration: underline;}
+
+a.active {
+    background-color: black;
+    color: rgb(98, 98, 240);
+
+  }
+
+h1  {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 600;
+    margin-top: 5em;
+}
+h3 {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 600;
+    margin-top: 15em;
+}
+p {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.button:hover {
+    background-color: #6a82ee;
+    transition: 0.4s;
+}
+.button {
+    background-color: yellow;
+    color: black;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0px 0px 2px 2px yellow;
+    min-height: 30px; 
+    min-width: 90px;
+    margin-right: 1em;
+}
+#contatti {
+    text-align: right;
+    padding-right: 3em;
+}
+
+#PARTNER {
+    margin-top: 10em;
+    padding-bottom: 12em;
+    color: white;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 300;
+}   
+#imgpartner {
+    height: auto;
+    width: 800px;
+}
+
+.tre {
+    color: white;
+    float: left;
+    letter-spacing: 0.05em;
+    font-family:'Prompt', sans-serif;
+    font-weight: 300;
+    padding-top: 10em;
+    padding-left: 12em;
+    padding-right: 3em;
+    
+}
+.insieme {
+    float: left;
+    padding-left: 17em;
+    padding-bottom: 14em;
+}
+#mappa {
+    height: 150px;
+    width: 150px;
+} 
+body{
+	text-align: center;
+	background: black;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1{
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: 'Prompt', sans-serif;
+	color: black;
+	display: inline-block;
+	font-weight: 200;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: yellow;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+#attivo {
+    text-decoration: underline yellow;
+}
+
+#partnerimg {
+    height: 100px;
+    width: 100px;
+} 
+
+
+
